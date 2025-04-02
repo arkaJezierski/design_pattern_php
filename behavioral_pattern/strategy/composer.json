@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/strategy",
+  "description": "Example implementation of the Strategy Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

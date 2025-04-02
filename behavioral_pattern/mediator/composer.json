@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/mediator",
+  "description": "Example implementation of the Mediator Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

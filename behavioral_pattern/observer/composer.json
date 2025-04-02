@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/observer",
+  "description": "Example implementation of the Observer Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

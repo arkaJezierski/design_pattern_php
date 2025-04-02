@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/state",
+  "description": "Example implementation of the State Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

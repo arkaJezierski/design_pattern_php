@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/memento",
+  "description": "Example implementation of the Memento Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

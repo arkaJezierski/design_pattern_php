@@ -1,0 +1,13 @@
+{
+  "name": "behavioral_pattern/visitor",
+  "description": "Example implementation of the Visitor Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
