@@ -2,18 +2,18 @@
 
 namespace App\Src;
 
-use App\Interfaces\OrderState;
+use App\Interfaces\Stateable;
 
 class Order
 {
-    private OrderState $state;
+    private Stateable $state;
 
-    public function __construct(OrderState $initialState)
+    public function __construct(Stateable $initialState)
     {
         $this->state = $initialState;
     }
 
-    public function setState(OrderState $state): void
+    public function setState(Stateable $state): void
     {
         $this->state = $state;
     }

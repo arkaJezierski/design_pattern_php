@@ -2,13 +2,13 @@
 
 namespace App\Src;
 
-use App\Interfaces\PaymentStrategy;
+use App\Interfaces\Strategable;
 
 class PaymentContext
 {
-    private PaymentStrategy $strategy;
+    private Strategable $strategy;
 
-    public function setStrategy(PaymentStrategy $strategy): void
+    public function setStrategy(Strategable $strategy): void
     {
         $this->strategy = $strategy;
     }

@@ -2,10 +2,10 @@
 
 namespace App\Src;
 
-use App\Interfaces\Document;
-use App\Interfaces\DocumentVisitor;
+use App\Interfaces\Documentable;
+use App\Interfaces\Visitorable;
 
-class Report implements Document
+class Report implements Documentable
 {
     public string $title;
     public string $content;
@@ -16,7 +16,7 @@ class Report implements Document
         $this->content = $content;
     }
 
-    public function accept(DocumentVisitor $visitor): void
+    public function accept(Visitorable $visitor): void
     {
         $visitor->visitReport($this);
     }

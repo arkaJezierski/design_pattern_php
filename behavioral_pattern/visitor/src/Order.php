@@ -2,10 +2,10 @@
 
 namespace App\Src;
 
-use App\Interfaces\Document;
-use App\Interfaces\DocumentVisitor;
+use App\Interfaces\Documentable;
+use App\Interfaces\Visitorable;
 
-class Order implements Document
+class Order implements Documentable
 {
     public string $customer;
     public array $items;
@@ -16,7 +16,7 @@ class Order implements Document
         $this->items = $items;
     }
 
-    public function accept(DocumentVisitor $visitor): void
+    public function accept(Visitorable $visitor): void
     {
         $visitor->visitOrder($this);
     }

@@ -2,10 +2,10 @@
 
 namespace App\Src;
 
-use App\Interfaces\Document;
-use App\Interfaces\DocumentVisitor;
+use App\Interfaces\Documentable;
+use App\Interfaces\Visitorable;
 
-class Invoice implements Document
+class Invoice implements Documentable
 {
     public string $number;
     public float $amount;
@@ -16,7 +16,7 @@ class Invoice implements Document
         $this->amount = $amount;
     }
 
-    public function accept(DocumentVisitor $visitor): void
+    public function accept(Visitorable $visitor): void
     {
         $visitor->visitInvoice($this);
     }

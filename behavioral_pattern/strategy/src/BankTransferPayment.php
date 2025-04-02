@@ -2,9 +2,9 @@
 
 namespace App\Src;
 
-use App\Interfaces\PaymentStrategy;
+use App\Interfaces\Strategable;
 
-class BankTransferPayment implements PaymentStrategy
+class BankTransferPayment implements Strategable
 {
     public function pay(float $amount): void
     {

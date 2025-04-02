@@ -2,9 +2,9 @@
 
 namespace App\Src;
 
-use App\Interfaces\OrderState;
+use App\Interfaces\Stateable;
 
-class ShippedState implements OrderState
+class ShippedState implements Stateable
 {
     public function proceed(Order $order): void
     {

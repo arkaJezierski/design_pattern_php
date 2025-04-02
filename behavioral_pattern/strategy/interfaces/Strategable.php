@@ -2,7 +2,7 @@
 
 namespace App\Interfaces;
 
-interface PaymentStrategy
+interface Strategable
 {
     public function pay(float $amount): void;
 }

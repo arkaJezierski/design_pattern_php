@@ -6,7 +6,7 @@ use App\Src\Invoice;
 use App\Src\Order;
 use App\Src\Report;
 
-interface DocumentVisitor
+interface Visitorable
 {
     public function visitInvoice(Invoice $invoice): void;
     public function visitOrder(Order $order): void;

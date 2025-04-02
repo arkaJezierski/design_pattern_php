@@ -2,9 +2,9 @@
 
 namespace App\Src;
 
-use App\Interfaces\DocumentVisitor;
+use App\Interfaces\Visitorable;
 
-class PdfExporterVisitor implements DocumentVisitor
+class PdfExporterVisitor implements Visitorable
 {
     public function visitInvoice(Invoice $invoice): void
     {
