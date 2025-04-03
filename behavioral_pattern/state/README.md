@@ -14,16 +14,15 @@ Instead of using `if`/`else` or `switch` statements, each state is represented b
 
 ## 📦 Project Structure
 
-state/
-├── interfaces/
-│   └── OrderState.php
-├── src/
-│   ├── Order.php
-│   ├── NewState.php
-│   ├── ProcessingState.php
-│   ├── ShippedState.php
-│   └── DeliveredState.php
-└── index.php
+interfaces
+    Stateable.php
+src
+    DeliveredState.php
+    NewState.php
+    Order.php
+    ProcessingState.php
+    ShippedState.php
+index.php
 
 ---
 

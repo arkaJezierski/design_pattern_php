@@ -14,15 +14,14 @@ In simple terms: instead of having one class with a bunch of `if`/`else` or `swi
 
 ## 📦 Project Structure
 
-├── interfaces/ 
-    │ └── PaymentStrategy.php 
-├── src/ 
-│ ├── PaymentContext.php 
-│ ├── CreditCardPayment.php 
-│ ├── PayPalPayment.php 
-│ └── BankTransferPayment.php 
-└── index.php
-
+interfaces
+    Strategable.php
+src
+    BankTransferPayment.php
+    CreditCardPayment.php
+    PaymentContext.php
+    PayPalPayment.php
+index.php
 
 ---
 

@@ -31,15 +31,14 @@ it just sends the message to everyone who’s listening.
 
 ## 📂 Files
 
-observer/
-├── interfaces/
-│   ├── Observer.php
-│   └── Subject.php
-├── src/
-│   ├── Blog.php
-│   ├── EmailSubscriber.php
-│   └── SlackSubscriber.php
-└── index.php
+interfaces
+    Observerable.php
+    Subjectable.php
+src
+    Blog.php
+    EmailSubscriber.php
+    SlackSubscriber.php
+index.php
 
 
 ---

@@ -16,15 +16,15 @@ Instead, you define **visitors** — classes that implement these operations sep
 
 ## 📦 Project Structure
 
-├── interfaces/ 
-    │ ├── Document.php 
-    │ └── DocumentVisitor.php 
-├── src/ 
-    │ ├── Invoice.php 
-    │ ├── Order.php 
-    │ ├── Report.php 
-    │ └── PdfExporterVisitor.php 
-└── index.php
+interfaces
+    Documentable.php
+    Visitorable.php
+src
+    Invoice.php
+    Order.php
+    PdfExporterVisitor.php
+    Report.php
+index.php
 
 
 ---

@@ -1,4 +1,4 @@
-    # Template Method Design Pattern in PHP
+# Template Method Design Pattern in PHP
 
 This repository demonstrates the **Template Method** design pattern using a clear and practical example in PHP.
 
@@ -14,14 +14,12 @@ It’s useful when multiple classes share the same structure of an operation, bu
 
 ## 📦 Project Structure
 
-template_method/
-├── interfaces/
-│   └── ReportGenerator.php
-├── src/
-│   ├── SalesReport.php
-│   ├── InventoryReport.php
-└── index.php
-
+interfaces
+   ReportGenerator.php
+src
+   InventoryReport.php
+   SalesReport.php
+index.php
 
 ---
 
