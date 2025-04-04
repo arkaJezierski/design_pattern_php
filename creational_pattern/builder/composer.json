@@ -1,0 +1,13 @@
+{
+  "name": "creational_pattern/builder",
+  "description": "Example implementation of the Builder Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

@@ -13,7 +13,7 @@ You can go back to a previous version of your object, without knowing how the ob
 
 ---
 
-## ✍️ Example Used in This Project
+## How It Works
 
 We have a `TextEditor` class that allows writing content.  
 We can:

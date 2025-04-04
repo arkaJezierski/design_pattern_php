@@ -18,7 +18,7 @@ In programming:
 
 ---
 
-## 🧪 Example Used in This Project
+## 🧪 How It Works
 
 We have a `Blog` class. When a new blog post is published:
 - `EmailSubscriber` gets an email

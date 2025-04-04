@@ -1,0 +1,13 @@
+{
+  "name": "structural_pattern/flyweight",
+  "description": "Example implementation of the Flyweight Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

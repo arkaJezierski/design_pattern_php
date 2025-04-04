@@ -1,0 +1,13 @@
+{
+  "name": "structural_pattern/decorator",
+  "description": "Example implementation of the Decorator Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

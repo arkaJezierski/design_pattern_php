@@ -12,7 +12,7 @@ Instead of objects talking directly to each other, they **communicate through a 
 
 ---
 
-## 🧪 Example Used in This Project
+## 🧪 How It Works
 
 We have multiple users (`User` objects), and a central `ChatRoom`:
 

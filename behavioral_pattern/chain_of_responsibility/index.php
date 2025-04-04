@@ -11,7 +11,8 @@ $spam = new SpamFilter();
 $profanity = new ProfanityFilter();
 $length = new LengthFilter();
 
-// Run every object one by one
+// Set every filter at the row
 $spam->setNext($profanity)->setNext($length);
 
+// Run every object one by one
 $spam->apply("Hey, check this out! No badword here.");

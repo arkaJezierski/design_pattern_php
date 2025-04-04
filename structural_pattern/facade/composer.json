@@ -1,0 +1,13 @@
+{
+  "name": "structural_pattern/facade",
+  "description": "Example implementation of the Facade Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

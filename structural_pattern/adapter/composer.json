@@ -1,0 +1,13 @@
+{
+  "name": "structural_pattern/adapter",
+  "description": "Example implementation of the Adapter Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "structural_pattern/proxy",
+  "description": "Example implementation of the Proxy Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

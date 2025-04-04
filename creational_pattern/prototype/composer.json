@@ -1,0 +1,13 @@
+{
+  "name": "creational_pattern/prototype",
+  "description": "Example implementation of the Prototype Pattern in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

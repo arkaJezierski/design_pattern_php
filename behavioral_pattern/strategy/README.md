@@ -25,7 +25,7 @@ index.php
 
 ---
 
-## 💳 How It Works (Example: Payment System)
+## 💳 How It Works
 
 1. You have a `PaymentContext` class that delegates the actual payment logic to a strategy.
 2. Strategies implement the `PaymentStrategy` interface and define how to process the payment:

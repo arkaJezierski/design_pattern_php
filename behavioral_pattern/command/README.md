@@ -15,7 +15,7 @@ This lets you:
 
 ---
 
-## 🧪 Example Used in This Project
+## 🧪 How It Works
 
 We have:
 - A `Light` class with `turnOn()` and `turnOff()` methods
