@@ -16,7 +16,7 @@ It’s useful when:
 
 ---
 
-## 🧪 Example Used in This Project
+## 🧪 How It Works
 
 We have:
 - `PlainMessage` – returns a simple string

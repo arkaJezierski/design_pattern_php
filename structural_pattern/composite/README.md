@@ -16,7 +16,7 @@ It’s perfect for situations like:
 
 ---
 
-## 🧪 Example Used in This Project
+## 🧪 How It Works
 
 We have:
 - `MenuItem` – a single clickable link
