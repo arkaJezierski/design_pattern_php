@@ -8,6 +8,6 @@ class CreditCardPayment implements Strategable
 {
     public function pay(float $amount): void
     {
-        echo "Processing \${$amount} Credit Card...\n";
+        print "Processing \${$amount} Credit Card...\n";
     }
 }

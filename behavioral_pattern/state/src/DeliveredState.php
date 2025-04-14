@@ -8,7 +8,7 @@ class DeliveredState implements Stateable
 {
     public function proceed(Order $order): void
     {
-        echo "Order is already Delivered. No further transitions.\n";
+        print "Order is already Delivered. No further transitions.\n";
     }
 
     public function getName(): string

@@ -8,6 +8,6 @@ class PayPalPayment implements Strategable
 {
     public function pay(float $amount): void
     {
-        echo "Processing \${$amount} PayPal...\n";
+        print "Processing \${$amount} PayPal...\n";
     }
 }

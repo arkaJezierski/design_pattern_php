@@ -8,6 +8,6 @@ class MacCheckbox implements Checkbox
 {
     public function render(): void
     {
-        echo "Rendering macOS-style checkbox\n";
+        print "Rendering macOS-style checkbox\n";
     }
 }

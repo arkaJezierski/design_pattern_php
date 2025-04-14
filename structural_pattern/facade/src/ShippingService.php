@@ -6,6 +6,6 @@ class ShippingService
 {
     public function ship(string $address): void
     {
-        echo "Package shipped to $address.\n";
+        print "Package shipped to $address.\n";
     }
 }

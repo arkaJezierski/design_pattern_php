@@ -14,11 +14,11 @@ class ProxyDownloader implements Downloader
     public function download(string $file): void
     {
         if (!$this->hasAccess) {
-            echo "Access denied for file: $file\n";
+            print "Access denied for file: $file\n";
             return;
         }
 
-        echo "Access granted.\n";
+        print "Access granted.\n";
         $this->downloader->download($file);
     }
 }

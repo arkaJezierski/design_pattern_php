@@ -8,7 +8,7 @@ class ProcessingState implements Stateable
 {
     public function proceed(Order $order): void
     {
-        echo "Order has been Shipped.\n";
+        print "Order has been Shipped.\n";
         $order->setState(new ShippedState());
     }
 

@@ -8,6 +8,6 @@ class WindowsCheckbox implements Checkbox
 {
     public function render(): void
     {
-        echo "Rendering Windows-style checkbox\n";
+        print "Rendering Windows-style checkbox\n";
     }
 }

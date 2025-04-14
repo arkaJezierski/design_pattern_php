@@ -8,6 +8,6 @@ class SlackSubscriber implements Observerable
 {
     public function update(string $title): void
     {
-        echo "SlackSubscriber: Posting message to Slack about '$title'\n";
+        print "SlackSubscriber: Posting message to Slack about '$title'\n";
     }
 }

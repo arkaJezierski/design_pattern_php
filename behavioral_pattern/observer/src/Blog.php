@@ -31,7 +31,7 @@ class Blog implements Subjectable
 
     public function publish(string $title): void
     {
-        echo "Blog post published: $title\n";
+        print "Blog post published: $title\n";
         $this->notify($title);
     }
 }

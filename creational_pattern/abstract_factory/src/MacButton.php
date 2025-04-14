@@ -8,6 +8,6 @@ class MacButton implements Button
 {
     public function render(): void
     {
-        echo "Rendering macOS-style button\n";
+        print "Rendering macOS-style button\n";
     }
 }

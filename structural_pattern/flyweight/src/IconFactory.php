@@ -12,7 +12,7 @@ class IconFactory
 
         if (!isset($this->icons[$key])) {
             $this->icons[$key] = new Icon($type, $color);
-            echo "Created new Icon instance for [$key]\n";
+            print "Created new Icon instance for [$key]\n";
         }
 
         return $this->icons[$key];

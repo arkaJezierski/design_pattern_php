@@ -13,7 +13,7 @@ class TextEditor
 
     public function show(): void
     {
-        echo "Editor content: \"{$this->content}\"\n";
+        print "Editor content: \"{$this->content}\"\n";
     }
 
     public function save(): EditorMemento

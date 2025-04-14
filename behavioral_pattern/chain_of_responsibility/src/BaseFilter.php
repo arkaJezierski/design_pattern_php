@@ -19,7 +19,7 @@ abstract class BaseFilter implements Filter
         if ($this->next) {
             $this->next->apply($message);
         } else {
-            echo "✅ Final message: \"$message\"\n";
+            print "Final message: \"$message\"\n";
         }
     }
 }

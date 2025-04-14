@@ -8,7 +8,7 @@ class ShippedState implements Stateable
 {
     public function proceed(Order $order): void
     {
-        echo "Order has been Delivered.\n";
+        print "Order has been Delivered.\n";
         $order->setState(new DeliveredState());
     }
 

@@ -18,7 +18,7 @@ class RemoteControl
         if ($this->command) {
             $this->command->execute();
         } else {
-            echo "No command set.\n";
+            print "No command set.\n";
         }
     }
 }

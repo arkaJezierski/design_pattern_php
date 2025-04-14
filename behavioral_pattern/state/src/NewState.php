@@ -8,7 +8,7 @@ class NewState implements Stateable
 {
     public function proceed(Order $order): void
     {
-        echo "Order is now Processing.\n";
+        print "Order is now Processing.\n";
         $order->setState(new ProcessingState());
     }
 

@@ -11,6 +11,6 @@ class Icon
 
     public function draw(int $x, int $y): void
     {
-        echo "Drawing [$this->type:$this->color] at ($x, $y)\n";
+        print "Drawing [$this->type:$this->color] at ($x, $y)\n";
     }
 }

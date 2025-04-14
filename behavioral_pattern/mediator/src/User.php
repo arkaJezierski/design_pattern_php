@@ -22,13 +22,13 @@ class User implements Colleague
 
     public function send(string $message): void
     {
-        echo "{$this->name} sends: $message\n";
+        print "{$this->name} sends: $message\n";
         $this->mediator?->send($message, $this);
     }
 
     public function receive(string $message): void
     {
-        echo "{$this->name} receives: $message\n";
+        print "{$this->name} receives: $message\n";
     }
 
     public function getName(): string

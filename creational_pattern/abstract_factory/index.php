@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use App\Src\WindowsFactory;
 use App\Src\MacFactory;
 
-// Rendering Windows/MacOS object and using method from implemented interfaces
+// Rendering Windows/MacOS object and using method from implemented interfacesll
 function renderUI(App\Interfaces\GUIFactory $factory): void {
     $button = $factory->createButton();
     $checkbox = $factory->createCheckbox();

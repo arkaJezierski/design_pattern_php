@@ -6,6 +6,6 @@ class PaymentService
 {
     public function pay(float $amount): void
     {
-        echo "Payment of $amount completed.\n";
+        print "Payment of $amount completed.\n";
     }
 }

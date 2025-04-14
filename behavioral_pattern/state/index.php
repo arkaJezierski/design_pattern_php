@@ -10,6 +10,6 @@ $order = new Order(new NewState());
 
 //Getting object every state, show them and push it to the next state
 for ($i = 0; $i < 4; $i++) {
-    echo "Current state: " . $order->getStateName() . "\n";
+    print "Current state: " . $order->getStateName() . "\n";
     $order->proceed();
 }
